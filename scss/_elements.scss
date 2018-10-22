@@ -1,0 +1,58 @@
+// Button Base
+@mixin button {
+    font-weight: 700;
+    font-size: $p-font-size;
+    border-radius: $ui-radius;
+    color: #fff;
+    background: $neutral-color;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.5em 1em;
+    @include font-smoothing;
+}
+
+// Button Sizes
+@mixin button-lg {
+    @include button;
+    padding: 0.75em 1.25em;
+}
+@mixin button-md {
+    @include button;
+    font-size: calc(#{$p-font-size-value}*0.85)
+}
+@mixin button-sm {
+    @include button;
+    font-size: calc(#{$p-font-size-value}*0.7)
+}
+.button-lg {@include button-lg;}
+.button-md {@include button-md;}
+.button-sm {@include button-sm;}
+
+
+// Button Colors
+@mixin primary-button {
+    background: $primary-color;
+    &:hover { background: $primary-color-dd; }
+}
+@mixin neutral-dark-button {
+    background: $neutral-color-ddd;
+    &:hover { background: $neutral-color-ddddd; }
+}
+@mixin neutral-light-button {
+    background: $neutral-color-lll;
+    color: $neutral-color-ddd;
+    &:hover { background: $neutral-color-l; }
+}
+@mixin affirm-button {
+    background: $affirm-color;
+    &:hover { background: $affirm-color-dd; }
+}
+@mixin negate-button {
+    background: $negate-color;
+    &:hover { background: $negate-color-dd; }
+}
+.primary-button { @include primary-button; }
+.neutral-dark-button { @include neutral-dark-button; }
+.neutral-light-button { @include neutral-light-button; }
+.affirm-button { @include affirm-button; }
+.negate-button { @include negate-button; }

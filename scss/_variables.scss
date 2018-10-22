@@ -1,0 +1,57 @@
+// Interface
+$block-radius: 5px;
+$ui-radius: 5px;
+$transition-time: 0.25s;
+
+// Typography
+$p-font-size-value: '(0.85em + 0.25vw)';
+$p-font-size: calc(#{$p-font-size-value});
+
+// Colors
+$neutral-color: #808080;
+$neutral-color-lllll: lighten($neutral-color, 45%);
+$neutral-color-llll: lighten($neutral-color, 36%);
+$neutral-color-lll: lighten($neutral-color, 27%);
+$neutral-color-ll: lighten($neutral-color, 18%);
+$neutral-color-l: lighten($neutral-color, 9%);
+$neutral-color-d: darken($neutral-color, 9%);
+$neutral-color-dd: darken($neutral-color, 18%);
+$neutral-color-ddd: darken($neutral-color, 27%);
+$neutral-color-dddd: darken($neutral-color, 36%);
+$neutral-color-ddddd: darken($neutral-color, 45%);
+
+$primary-color: #47B8C7;
+$primary-color-lllll: lighten($primary-color, 35%);
+$primary-color-llll: lighten($primary-color, 28%);
+$primary-color-lll: lighten($primary-color, 21%);
+$primary-color-ll: lighten($primary-color, 14%);
+$primary-color-l: lighten($primary-color, 7%);
+$primary-color-d: darken($primary-color, 7%);
+$primary-color-dd: darken($primary-color, 14%);
+$primary-color-ddd: darken($primary-color, 21%);
+$primary-color-dddd: darken($primary-color, 28%);
+$primary-color-ddddd: darken($primary-color, 35%);
+
+$affirm-color: #4AC747;
+$affirm-color-lllll: lighten($affirm-color, 35%);
+$affirm-color-llll: lighten($affirm-color, 28%);
+$affirm-color-lll: lighten($affirm-color, 21%);
+$affirm-color-ll: lighten($affirm-color, 14%);
+$affirm-color-l: lighten($affirm-color, 7%);
+$affirm-color-d: darken($affirm-color, 7%);
+$affirm-color-dd: darken($affirm-color, 14%);
+$affirm-color-ddd: darken($affirm-color, 21%);
+$affirm-color-dddd: darken($affirm-color, 28%);
+$affirm-color-ddddd: darken($affirm-color, 35%);
+
+$negate-color: #C74757;
+$negate-color-lllll: lighten($negate-color, 35%);
+$negate-color-llll: lighten($negate-color, 28%);
+$negate-color-lll: lighten($negate-color, 21%);
+$negate-color-ll: lighten($negate-color, 14%);
+$negate-color-l: lighten($negate-color, 7%);
+$negate-color-d: darken($negate-color, 7%);
+$negate-color-dd: darken($negate-color, 14%);
+$negate-color-ddd: darken($negate-color, 21%);
+$negate-color-dddd: darken($negate-color, 28%);
+$negate-color-ddddd: darken($negate-color, 35%);
