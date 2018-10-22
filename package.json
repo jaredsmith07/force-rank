@@ -1,0 +1,16 @@
+{
+  "name": "force-rank",
+  "version": "1.0.0",
+  "description": "An app for force ranking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.4",
+    "sass": "^1.14.3"
+  }
+}
