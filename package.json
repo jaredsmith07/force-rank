@@ -1,7 +1,7 @@
 {
-  "name": "ti4.io",
+  "name": "force-rank",
   "version": "1.0.0",
-  "description": "A companion app for Twilight Imperium 4th Edition",
+  "description": "An app for force ranking",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
