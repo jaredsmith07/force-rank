@@ -413,6 +413,12 @@ button::-moz-focus-inner {
   .negate-button:hover {
     background: #982e3c; }
 
+h1 {
+  font-size: calc((2em + 1vw)); }
+
+h2 {
+  font-size: calc((1em + 0.25vw)); }
+
 p {
   font-size: calc((0.85em + 0.25vw)); }
 

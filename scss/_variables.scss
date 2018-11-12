@@ -4,6 +4,12 @@ $ui-radius: 5px;
 $transition-time: 0.25s;
 
 // Typography
+$h1-font-size-value: '(2em + 1vw)';
+$h1-font-size: calc(#{$h1-font-size-value});
+
+$h2-font-size-value: '(1em + 0.25vw)';
+$h2-font-size: calc(#{$h2-font-size-value});
+
 $p-font-size-value: '(0.85em + 0.25vw)';
 $p-font-size: calc(#{$p-font-size-value});
 
